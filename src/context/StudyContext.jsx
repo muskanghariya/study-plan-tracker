@@ -2,8 +2,6 @@ import { createContext, useContext, useReducer } from "react";
 
 const StudyContext = createContext();
 
-
-
 const initialState = {
   sessions: [
     {
